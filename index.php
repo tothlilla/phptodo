@@ -1,7 +1,5 @@
  <?php
-  include_once 'includes/dbh.ini.php';
-  
- 
+    include_once 'includes/dbh.ini.php';
  ?>
 
 <!DOCTYPE html>
