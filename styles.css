@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+    background-color: #379683;
+	font-family: "Indie Flower";
+	font-size: 20px;
+	height: 100%;
+}
+
+#page {
+    background-color: #D3BA5C;
+    margin: auto;
+	width: 80%;
+	height: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+	padding: 2% 0;
+    width: 100%;
+	height: 30%;
+    background-color: #63631A;
+	color: #3F292B;
+    white-space: nowrap;
+}
+
+.main {
+    width: 80%;
+	height: 100%;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+#input-form {
+
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFDF7F;
+    border: 1px solid #3F292B;
+    border-radius: 10px;
+    display: flex;
+	align-items: center;
+	font-size: 1em;
+
+}
+
+#input-form > input,
+#input-form > label,
+#input-form > button {
+    font-size: inherit;
+	font-family: inherit;
+}
+
+#input-form > button {
+    background-color: #72A276;
+	color: #E6F2ED;
+	padding: 7px 15px;
+}
+
+#input-form > input {
+    width: 70%;
+    margin: auto;
+	background-color: #E6F2ED;
+}
+
+#main-content {
+	background-image: url("thin-old-paper-1174146.jpg");
+	box-shadow: 5px 10px 8px #888888;
+	background-position: 50% 10%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5px;
+}
+
+#table-of-tasks {
+	width: 70%;
+	margin: 40px auto;
+	border-spacing: 0;
+	max-width: 900px;
+	font-weight: 600;
+
+}
+
+thead {
+	background-color: rgba(255,255, 255, 0.6);
+	font-size: 1em;
+	color: #3F292B;
+	
+}
+tbody {
+	font-size: 0.9em;
+}
+
+th, td {
+	border-bottom: 1px solid #3F292B;
+
+}
+
+th {
+	padding: 15px;
+	border-top: 1px solid #3F292B;
+}
+
+td {
+	padding: 15px 5px;
+	text-align: center;
+
+}
+
+.done {
+	color: #5CDB95;
+}
+
+.done > a {
+	color: green;
+	padding: 7px 15px;
+	background-color: #ff7b29;
+	border: 1px solid #3F292B;
+	border-radius: 10px;
+	text-decoration:none;
+}
+
+.task {
+    text-align: left;
+	padding: 5px;
+}
+
+.delete-btn > a,
+.done-btn > a {
+	background-color: #39CCCC;
+}
+
+.delete-btn > a,
+.done-btn > a,
+.delete-btn:hover > a,
+.done-btn:hover > a  {
+    color: white;
+	padding: 7px 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.delete-btn:hover > a, .done-btn:hover > a {
+	background-color: #ff7b29;
+}
+   
