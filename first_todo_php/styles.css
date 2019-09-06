@@ -1,27 +1,26 @@
 body {
-	margin: 0;
+	margin: auto;
     background-color: #379683;
 	font-family: "Indie Flower";
-	font-size: 20px;
-	height: 100%;
 }
 
 #page {
     background-color: #D3BA5C;
     margin: auto;
 	width: 80%;
-	height: 100%;
+	display: block;
+	justify-content: center;
 }
 
 .heading {
     display: flex;
     justify-content: center;
-	padding: 2% 0;
-    width: 100%;
+	padding: 30px 0;
 	height: 30%;
     background-color: #63631A;
 	color: #3F292B;
     white-space: nowrap;
+	font-size: 1vw;
 }
 
 .main {
@@ -32,7 +31,6 @@ body {
 }
 
 #input-form {
-
     margin: 40px auto;
     padding: 20px;
     background-color: #FFDF7F;
@@ -40,7 +38,7 @@ body {
     border-radius: 10px;
     display: flex;
 	align-items: center;
-	font-size: 1em;
+	font-size: 1.2vw;
 
 }
 
@@ -83,12 +81,12 @@ body {
 
 thead {
 	background-color: rgba(255,255, 255, 0.6);
-	font-size: 1em;
+	font-size: 1.2vw;
 	color: #3F292B;
 	
 }
 tbody {
-	font-size: 0.9em;
+	font-size: 1vw;
 }
 
 th, td {

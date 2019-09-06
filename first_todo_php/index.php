@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./styles.css?version5">
+    <link rel="stylesheet" type="text/css" href="./styles.css?version6">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
@@ -28,7 +28,7 @@
 				 <table id="table-of-tasks">
 					<thead>
 						<tr>
-							<th>Number</th>
+							<th>Nr.</th>
 							<th>My tasks</th>
 							<th>Action1</th>
 							<th>Action2</th>
